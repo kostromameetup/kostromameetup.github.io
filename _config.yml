@@ -1,0 +1,48 @@
+# Site wide configuration
+
+title: Kostroma Tensor Forum
+locale: ru_RU
+description: Очередная встреча костромских разработчиков в формате конференции TensorForum
+logo: logo.png
+search: true
+url: https://egor43.github.io/
+url:
+
+
+# Jekyll configuration
+
+permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..2
+  use_coderay: false
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
+
+
+# Site owner
+owner:
+  name: Kostroma Tensor Forum
+  avatar: bio-photo.jpg
+  email: hekusoid@gmail.com
+  disqus-shortname: tensor-kostroma
+  github:
+  stackexchange: 
+  linkedin: #username
+  instagram: #username
+  flickr: #username
+  google:
+    analytics: UA-78951182-1
+  tumblr: #username
+  bing-verify:

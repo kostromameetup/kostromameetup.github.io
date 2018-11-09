@@ -1,0 +1,16 @@
+# Site navigation links
+
+- title: 24/11/2018
+  url: /
+
+- title: О проекте
+  url: /about/
+
+- title: Люди
+  url: /people/
+
+- title: Встречи
+  url: /events/
+
+- title: Регистрация
+  url: /register/
