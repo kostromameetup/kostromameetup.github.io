@@ -1,5 +1,5 @@
-# Rybinsk Tensor Forum
+# Kostroma Tensor Forum
 
 Встреча разработчиков проходящая в г. Рыбинск.
 
-[http://rtf.tensor.ru](http://rtf.tensor.ru/)
+[http://kstf.tensor.ru](http://kstf.tensor.ru/)
